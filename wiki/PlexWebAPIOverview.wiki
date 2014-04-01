@@ -8,6 +8,7 @@ All API information comes wrapped in the root node of
 }}}
 The MediaContainer node can have many attribute and child nodes depending on the API's URL you are accessing. 
 
+All timestamps in the API are in Epoch time. See http://www.epochconverter.com/
 = API URL's =
 Base URL: http://IP:PORT/
 
