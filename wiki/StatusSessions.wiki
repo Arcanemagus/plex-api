@@ -1,4 +1,4 @@
-#summary /status/sessions - The PMS's "Now Plating" Information
+#summary /status/sessions - The PMS's "Now Playing" Information
 
 = Introduction =
 
