@@ -1,0 +1,18 @@
+#summary Plex Web API Overview
+
+= Introduction =
+
+All API information comes wrapped in the root node of 
+{{{
+<MediaContainer></<MediaContainer>
+}}}
+The MediaContainer node can have many attribute and child nodes depending on the API's URL you are accessing. 
+
+= API URL's =
+Base URL: http://IP:PORT/
+
+||Call||URL||Description||
+||Get||/status/sessions||This will retrieve the "Now Playing" Information of the PMS.||
+||Get||/library/sections||Contains all of the sections on the PMS. This acts as a directory and you are able to "walk" through it.||
+||Get||/:/prefs||Gets the server preferences||
+||Get||/servers||get the local List of servers||
