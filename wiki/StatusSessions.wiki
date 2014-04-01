@@ -1,0 +1,78 @@
+#summary /status/sessions - The PMS's "Now Plating" Information
+
+= Introduction =
+
+The '/status/sessions' page displays all the "Now Playing" Information for the Plex Server.
+
+= Example XML =
+{{{
+<MediaContainer size="2">
+	<Video addedAt="1386095801" art="/library/metadata/668/art/1386095832" duration="2562020" grandparentKey="/library/metadata/668" grandparentRatingKey="668" grandparentThumb="/library/metadata/668/thumb/1386095832" grandparentTitle="Ravenswood" guid="com.plexapp.agents.thetvdb://268126/1/1?lang=en" index="1" key="/library/metadata/670" lastViewedAt="1386910087" librarySectionID="3" originallyAvailableAt="2013-10-22" parentIndex="1" parentKey="/library/metadata/669" parentRatingKey="669" rating="9" ratingKey="670" sessionKey="380" summary="After opting to stay in Ravenswood to help out new pal Miranda, Caleb begins to rethink his decision, especially after he meets Miranda's cold and unwelcoming uncle Raymond. Caleb also has some unpleasant interactions with local resident Luke, who is struggling to deal with a recent family tragedy and its ensuing scandal, which has also swept up his twin sister Olivia. Unnerved by what they witnessed the night of the party, and besieged by strange and supernatural occurrences, Caleb and Miranda begin to investigate this bizarre town. Their first ally is Ravenswood teen Remy, who has a keen insight to the town's peculiar history and has started connecting some troublesome dots. These five teens have no idea how connected their lives are and the plans that Ravenswood has in store for them." thumb="/library/metadata/670/thumb/1386095831" title="Pilot" type="episode" updatedAt="1386095831" viewOffset="10620" year="2013">
+		<Media aspectRatio="1.78" audioChannels="6" audioCodec="ac3" bitrate="2867" container="mkv" duration="2562020" height="720" id="628" videoCodec="h264" videoFrameRate="24p" videoResolution="720" width="1280">
+			<Part container="mkv" duration="2562020" file="/home/jim/Shows/Ravenswood/Season 1/Ravenswood - S01E01 - Pilot.mkv" id="628" indexes="sd" key="/library/parts/628/file.mkv" size="918022940">
+				<Stream bitDepth="8" bitrate="2426" cabac="1" chromaSubsampling="4:2:0" codec="h264" colorSpace="yuv" duration="2562020" frameRate="23.976" frameRateMode="cfr" hasScalingMatrix="0" height="720" id="3635" index="0" language="English" languageCode="eng" level="41" profile="high" refFrames="8" scanType="progressive" streamType="1" width="1280"/>
+				<Stream bitDepth="16" bitrate="384" bitrateMode="cbr" channels="6" codec="ac3" dialogNorm="-31" duration="2562018" id="3636" index="1" samplingRate="48000" selected="1" streamType="2"/>
+			</Part>
+		</Media>
+		<User id="1" thumb="http://www.gravatar.com/avatar/57ddfffd0c28b16997abce76964b5c03?d=404" title="JBurlison@Gmail.com"/>
+		<Player machineIdentifier="by8x6gcw579442t9" platform="Chrome" state="playing" title="Plex/Web (Chrome)"/>
+		<TranscodeSession audioChannels="2" audioCodec="mp3" audioDecision="transcode" container="mpegts" duration="2562000" height="720" key="by8x6gcw579442t9" progress="3.4000000953674316" protocol="hls" speed="5.1999998092651367" throttled="0" videoCodec="h264" videoDecision="copy" width="1280"/>
+	</Video>
+	<Video addedAt="1387660866" art="/library/metadata/696/art/1387660904" duration="7607858" guid="com.plexapp.agents.themoviedb://87421?lang=en" key="/library/metadata/696" librarySectionID="1" ontentRating="R" originallyAvailableAt="2013-09-06" rating="6.0999999046325701" ratingKey="696" sessionKey="1" studio="Universal Pictures" summary="Betrayed by his own kind and left for dead on a desolate planet, Riddick fights for survival against alien predators and becomes more powerful and dangerous than ever before. Soon bounty hunters from throughout the galaxy descend on Riddick only to find themselves pawns in his greater scheme for revenge. With his enemies right where he wants them, Riddick unleashes a vicious attack of vengeance before returning to his home planet of Furya to save it from destruction." tagline="Survival Is His Revenge" thumb="/library/metadata/696/thumb/1387660904" title="Riddick" type="movie" updatedAt="1387660904" viewOffset="24922" year="2013">
+		<Media aspectRatio="2.35" audioChannels="6" audioCodec="ac3" bitrate="4346" container="mkv" duration="7607858" height="796" id="652" videoCodec="h264" videoFrameRate="24p" videoResolution="1080" width="1916">
+			<Part container="mkv" duration="7607858" file="/home/jim/Movies/Riddick (2013).mkv" id="652" key="/library/parts/652/file.mkv" size="4132905434">
+				<Stream bitDepth="8" bitrate="3875" cabac="1" chromaSubsampling="4:2:0" codec="h264" codecID="V_MPEG4/ISO/AVC" colorSpace="yuv" duration="7607858" frameRate="23.976" frameRateMode="cfr" hasScalingMatrix="0" height="796" id="3677" index="0" language="English" languageCode="eng" level="40" profile="high" refFrames="5" scanType="progressive" streamType="1" title="" width="1916"/>
+				<Stream bitDepth="16" bitrate="384" bitrateMode="cbr" channels="6" codec="ac3" codecID="A_AC3" dialogNorm="-27" duration="7607840" id="3678" index="1" language="English" languageCode="eng" samplingRate="48000" selected="1" streamType="2" title=""/>
+			</Part>
+		</Media>
+		<Genre id="218" tag="Action"/>
+		<Genre id="247" tag="Science Fiction"/>
+		<Genre id="108" tag="Thriller"/>
+		<Writer id="4080" tag="David Twohy"/>
+		<Director id="4078" tag="David Twohy"/>
+		<Producer id="6820" tag="Ted Field"/>
+		<Producer id="4020" tag="Vin Diesel"/>
+		<Producer id="6821" tag="Samantha Vincent"/>
+		<Country id="71" tag="USA"/>
+		<Role id="660" role="Riddick" tag="Vin Diesel" thumb="http://image.tmdb.org/t/p/original/qwyfzMKIhxJ7ols66FgEf7eGdcI.jpg"/>
+		<Role id="1054" role="Lord Vaako" tag="Karl Urban" thumb="http://image.tmdb.org/t/p/original/tHYOUO33K7iaDw8nXyqRvDIkVuM.jpg"/>
+		<Role id="6811" role="Dahl" tag="Katee Sackhoff" thumb="http://image.tmdb.org/t/p/original/8NcZJxNRSxP2QegcWeX8WDnFlSs.jpg"/>
+		<Role id="6812" role="Santana" tag="Jordi Mollà" thumb="http://image.tmdb.org/t/p/original/A648UpxxLlgdqziafgSCAVaR0Sc.jpg"/>
+		<Role id="6813" role="Moss" tag="Bokeem Woodbine" thumb="http://image.tmdb.org/t/p/original/5jxJLgIsEsKwsHSLVjNvMZzs1Mm.jpg"/>
+		<Role id="6814" role="Luna" tag="Nolan Gerard Funk" thumb="http://image.tmdb.org/t/p/original/an3qC0DTKiyzLs76Xw9t9crQfN5.jpg"/>
+		<Role id="6815" role="Nunez" tag="Noah Danby" thumb="http://image.tmdb.org/t/p/original/l6soX1Mb6V2QWwxrMjTVEaaaPB2.jpg"/>
+		<Role id="6816" role="Rubio" tag="Neil Napier"/>
+		<Role id="6817" role="" tag="Keri Hilson" thumb="http://image.tmdb.org/t/p/original/bmrHsGOx35pcYKXjn1aEL7sb5Rd.jpg"/>
+		<Role id="6818" role="Diaz" tag="Dave Bautista" thumb="http://image.tmdb.org/t/p/original/gtb1sMCmZjAeF0lSdEWLjFsSvmr.jpg"/>
+		<Role id="6819" role="Boss Johns" tag="Matthew Nable"/>
+		<Collection id="4093" tag="The Chronicles of Riddick"/>
+		<User id="1" thumb="http://www.gravatar.com/avatar/57ddfffd0c28b16997abce76964b5c03?d=404" title="JBurlison@Gmail.com"/>
+		<Player machineIdentifier="4f44996d-2fb4-4fcf-9ba4-4b3ab360ed27" platform="Android" state="playing" title="My SM-N900P"/>
+		<TranscodeSession audioChannels="2" audioCodec="aac" audioDecision="transcode" container="mpegts" duration="7607000" height="532" key="4f44996d-2fb4-4fcf-9ba4-4b3ab360ed27" progress="0.40000000596046448" protocol="hls" speed="0.5" throttled="0" videoCodec="h264" videoDecision="transcode" width="1280"/>
+	</Video>
+</MediaContainer>
+}}}
+
+= Possible Tags =
+
+||Tag Name||Description||
+||Video||The Video tag is used for all movies and tv shows.||
+
+= Video Tag =
+||X Path||Type||Name||Description||
+||\\Video||Attribute||addedAt||The datetime stamp the video was added at in Epoch time.||
+||\\Video||Attribute||art||The URL for the art to the video relative to the base URL. This is the background image in Plex.||
+||\\Video||Attribute||contentRaiting||The videos suggested viewer rating. i.e. "R" or "PG13"||
+||\\Video||Attribute||duration||The duration is in milliseconds.||
+||\\Video||Attribute||guid||The unique ID for the video.||
+||\\Video||Attribute||key||The directory of the video metadata information||
+||\\Video||Attribute||librarySectionID||The ID of the section the video belongs to.||
+||\\Video||Attribute||originallyAvailableAt||Release date of the video. e.x "2013-09-06"||
+||\\Video||Attribute||ratingKey||The videos key for its metadata in /library/metadata/KEY.||
+||\\Video||Attribute||summary||The summary for the video.||
+||\\Video||Attribute||tagline||The Tagline for the video.||
+||\\Video||Attribute||thumb||The URL to the Video poster. Relative to the base URL.||
+||\\Video||Attribute||title||The video title.||
+||\\Video||Attribute||type||The type of video. Known types are: "movie" and "episode".||
+||\\Video||Attribute||updated at||The last time the metadata was updated in Epoch time.||
+||\\Video||Attribute||viewOffset||The time watched so far in milliseconds.||
