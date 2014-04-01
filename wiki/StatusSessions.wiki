@@ -60,19 +60,19 @@ The '/status/sessions' page displays all the "Now Playing" Information for the P
 
 = Video Tag =
 ||X Path||Type||Name||Description||
-||\\Video||Attribute||addedAt||The datetime stamp the video was added at in Epoch time.||
-||\\Video||Attribute||art||The URL for the art to the video relative to the base URL. This is the background image in Plex.||
-||\\Video||Attribute||contentRaiting||The videos suggested viewer rating. e.x. "R" or "PG13"||
-||\\Video||Attribute||duration||The duration is in milliseconds.||
-||\\Video||Attribute||guid||The unique ID for the video.||
-||\\Video||Attribute||key||The directory of the video metadata information||
-||\\Video||Attribute||librarySectionID||The ID of the section the video belongs to.||
-||\\Video||Attribute||originallyAvailableAt||Release date of the video. e.x. "2013-09-06"||
-||\\Video||Attribute||ratingKey||The videos key for its metadata in /library/metadata/KEY.||
-||\\Video||Attribute||summary||The summary for the video.||
-||\\Video||Attribute||tagline||The Tagline for the video.||
-||\\Video||Attribute||thumb||The URL to the Video poster. Relative to the base URL.||
-||\\Video||Attribute||title||The video title.||
-||\\Video||Attribute||type||The type of video. Known types are: "movie" and "episode".||
-||\\Video||Attribute||updated at||The last time the metadata was updated in Epoch time.||
-||\\Video||Attribute||viewOffset||The time watched so far in milliseconds.||
+||\\Video\||Attribute||addedAt||The datetime stamp the video was added at in Epoch time.||
+||\\Video\||Attribute||art||The URL for the art to the video relative to the base URL. This is the background image in Plex.||
+||\\Video\||Attribute||contentRaiting||The videos suggested viewer rating. e.x. "R" or "PG13"||
+||\\Video\||Attribute||duration||The duration is in milliseconds.||
+||\\Video\||Attribute||guid||The unique ID for the video.||
+||\\Video\||Attribute||key||The directory of the video metadata information||
+||\\Video\||Attribute||librarySectionID||The ID of the section the video belongs to.||
+||\\Video\||Attribute||originallyAvailableAt||Release date of the video. e.x. "2013-09-06"||
+||\\Video\||Attribute||ratingKey||The videos key for its metadata in /library/metadata/KEY.||
+||\\Video\||Attribute||summary||The summary for the video.||
+||\\Video\||Attribute||tagline||The Tagline for the video.||
+||\\Video\||Attribute||thumb||The URL to the Video poster. Relative to the base URL.||
+||\\Video\||Attribute||title||The video title.||
+||\\Video\||Attribute||type||The type of video. Known types are: "movie" and "episode".||
+||\\Video\||Attribute||updated at||The last time the metadata was updated in Epoch time.||
+||\\Video\||Attribute||viewOffset||The time watched so far in milliseconds.||
