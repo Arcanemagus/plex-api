@@ -6,7 +6,7 @@ The '/status/sessions' page displays all the "Now Playing" Information for the P
 
 = Example XML =
 {{{
-<MediaContainer size="2">
+<MediaContainer size="4">
 	<Video addedAt="1386095801" art="/library/metadata/668/art/1386095832" duration="2562020" grandparentKey="/library/metadata/668" grandparentRatingKey="668" grandparentThumb="/library/metadata/668/thumb/1386095832" grandparentTitle="Ravenswood" guid="com.plexapp.agents.thetvdb://268126/1/1?lang=en" index="1" key="/library/metadata/670" lastViewedAt="1386910087" librarySectionID="3" originallyAvailableAt="2013-10-22" parentIndex="1" parentKey="/library/metadata/669" parentRatingKey="669" rating="9" ratingKey="670" sessionKey="380" summary="After opting to stay in Ravenswood to help out new pal Miranda, Caleb begins to rethink his decision, especially after he meets Miranda's cold and unwelcoming uncle Raymond. Caleb also has some unpleasant interactions with local resident Luke, who is struggling to deal with a recent family tragedy and its ensuing scandal, which has also swept up his twin sister Olivia. Unnerved by what they witnessed the night of the party, and besieged by strange and supernatural occurrences, Caleb and Miranda begin to investigate this bizarre town. Their first ally is Ravenswood teen Remy, who has a keen insight to the town's peculiar history and has started connecting some troublesome dots. These five teens have no idea how connected their lives are and the plans that Ravenswood has in store for them." thumb="/library/metadata/670/thumb/1386095831" title="Pilot" type="episode" updatedAt="1386095831" viewOffset="10620" year="2013">
 		<Media aspectRatio="1.78" audioChannels="6" audioCodec="ac3" bitrate="2867" container="mkv" duration="2562020" height="720" id="628" videoCodec="h264" videoFrameRate="24p" videoResolution="720" width="1280">
 			<Part container="mkv" duration="2562020" file="/home/jim/Shows/Ravenswood/Season 1/Ravenswood - S01E01 - Pilot.mkv" id="628" indexes="sd" key="/library/parts/628/file.mkv" size="918022940">
@@ -50,6 +50,22 @@ The '/status/sessions' page displays all the "Now Playing" Information for the P
 		<Player machineIdentifier="4f44996d-2fb4-4fcf-9ba4-4b3ab360ed27" platform="Android" state="playing" title="My SM-N900P"/>
 		<TranscodeSession audioChannels="2" audioCodec="aac" audioDecision="transcode" container="mpegts" duration="7607000" height="532" key="4f44996d-2fb4-4fcf-9ba4-4b3ab360ed27" progress="0.40000000596046448" protocol="hls" speed="0.5" throttled="0" videoCodec="h264" videoDecision="transcode" width="1280"/>
 	</Video>
+<Track addedAt="1396406847" art="/library/metadata/780/art/1396406868" duration="217782" grandparentKey="/library/metadata/780" grandparentRatingKey="780" grandparentThumb="/library/metadata/780/thumb/1396406868" grandparentTitle="Steve Miller" guid="local://781/8" index="8" key="/library/metadata/782" librarySectionID="3" originalTitle="Steve Miller Band" parentIndex="1" parentKey="/library/metadata/781" parentRatingKey="781" parentThumb="/library/metadata/781/thumb/1396406871" parentTitle="Greatest Hits 1974-78" ratingKey="782" sessionKey="1" summary="" thumb="/library/metadata/781/thumb/1396406871" title="The Joker" titleSort="Joker" type="track" updatedAt="1396406870" viewOffset="48550">
+		<Media audioChannels="2" audioCodec="mp3" bitrate="320" container="mp3" duration="217782" id="759">
+			<Part container="mp3" duration="217782" file="C:\Music\Steve Miller Band\Greatest Hits 1974-78\08 - The Joker.mp3" id="763" key="/library/parts/763/file.mp3" size="8752767">
+				<Stream bitrate="320" bitrateMode="cbr" channels="2" codec="mp3" duration="217782" id="8344" index="0" samplingRate="44100" selected="1" streamType="2" title=""/>
+			</Part>
+		</Media>
+		<User id="1" thumb="http://www.gravatar.com/avatar/57ddfffd0c28b16997abce76964b5c03?d=404" title="JBurlison@Gmail.com"/>
+		<Player machineIdentifier="bd3cf20c-8d97-4e40-af8b-6eaf389b1655" platform="Android" product="Plex for Android" state="paused" title="My SM-N900P"/>
+	</Track>
+<Photo addedAt="1396406875" guid="com.plexapp.agents.none://783?lang=xn" index="1" key="/library/metadata/783" librarySectionID="4" originallyAvailableAt="2014-04-01" ratingKey="783" sessionKey="2" summary="" thumb="/library/metadata/783/thumb/1396406885" title="SmDM0fZ" type="photo" updatedAt="1396406885" year="2014">
+		<Media aspectRatio="1.33" container="jpeg" height="1015" id="760" width="1352">
+			<Part container="jpeg" file="C:\Images\SmDM0fZ.jpg" id="764" key="/library/parts/764/file.jpg" size="117432"/>
+		</Media>
+		<User id="1" thumb="http://www.gravatar.com/avatar/57ddfffd0c28b16997abce76964b5c03?d=404" title="JBurlison@Gmail.com"/>
+		<Player machineIdentifier="bd3cf20c-8d97-4e40-af8b-6eaf389b1655" platform="Android" product="Plex for Android" state="playing" title="My SM-N900P"/>
+	</Photo>
 </MediaContainer>
 }}}
 
