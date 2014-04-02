@@ -72,7 +72,14 @@ The '/status/sessions' page displays all the "Now Playing" Information for the P
 = Possible Tags =
 
 ||Tag Name||Description||
+||MediaContainer||Root Node||
 ||Video||The Video tag is used for all movies and tv shows.||
+||Track||The Track tag is used for Music and audio.||
+||Photo||The Photo tag is used Images.||
+
+= MediaContainer Tag =
+||X Path||Type||Name||Description||
+||\\MediaContainer\||Attribute||size||Number of child elements in the XML. Can be made up of any combination of video/track/photo.||
 
 = Video Tag =
 ||X Path||Type||Name||Description||
