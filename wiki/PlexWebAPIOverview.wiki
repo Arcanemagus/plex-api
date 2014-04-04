@@ -18,5 +18,5 @@ Base URL: http://IP:PORT/
 ||Get||/library/sections||Contains all of the sections on the PMS. This acts as a directory and you are able to "walk" through it.||
 ||Get||/:/prefs||Gets the server preferences||
 ||Get||/servers||get the local List of servers||
-||Delete||/library/sections/<section_id>/Delete a section||
+||Delete||/library/sections/section_id/||Delete a section||
 ||Get||/library/onDeck||Show ondeck list||
