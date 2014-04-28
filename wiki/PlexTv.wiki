@@ -3,7 +3,7 @@
 = URL's =
 
 ||Call||URL||Description||
-||Get||https://my.plexapp.com/users/sign_in.xml||Sign in server for validating plex username/password||
+||Get||https://plex.tv/users/sign_in.xml||Sign in server for validating plex username/password||
 ||Get||https://plex.tv/devices.xml||Gets a list of available servers||
 
 = Header's =
