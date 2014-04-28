@@ -1,4 +1,4 @@
-#Control a Playback 
+#Control Playback 
 
 = Playback =
 
