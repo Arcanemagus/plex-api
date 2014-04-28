@@ -16,8 +16,8 @@
 ||X-Plex-Version||2.1.5||
 ||X-Plex-Platform-Version||34.0||
 ||Origin||http://localhost:32400||
-||X-Plex-Token||<snip>||
-||X-Plex-Client-Identifier: <snip>||
+||X-Plex-Token|*USER TOKEN*||
+||X-Plex-Client-Identifier||YOUR GUID*||
 ||X-Plex-Device-Name||Plex Web (Chrome)||
 ||X-Plex-Platform||Chrome||
 ||X-Plex-Username||reallistic||
