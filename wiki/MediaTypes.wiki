@@ -1,4 +1,4 @@
-#MediaTypes as defined in plex.js
+=MediaTypes as defined in plex.js=
 {{{
 id: 1,
 typeString: "movie",
