@@ -3,7 +3,7 @@
 = URL's =
 
 ||Call||URL||Description||
-||POST||https://plex.tv/users/sign_in.xml||Use basic auth to Sign in server for validating plex username/password||
+||POST||https://plex.tv/users/sign_in.xml||Use basic auth to Sign in to plex.tv for validating plex username/password and receive an auth token||
 ||Get||https://plex.tv/devices.xml||Gets a list of available servers||
 
 
