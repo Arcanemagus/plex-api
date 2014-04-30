@@ -3,33 +3,9 @@
 = URL's =
 
 ||Call||URL||Description||
-||Get||https://plex.tv/users/sign_in.xml||Sign in server for validating plex username/password||
+||POST||https://plex.tv/users/sign_in.xml||Use basic auth to Sign in server for validating plex username/password||
 ||Get||https://plex.tv/devices.xml||Gets a list of available servers||
 
-= Header's =
-
-||Name||Example||
-||Host||plex.tv||
-||Connection||keep-alive||
-||Cache-Control||no-cache||
-||Pragma||no-cache||
-||X-Plex-Version||2.1.5||
-||X-Plex-Platform-Version||34.0||
-||Origin||http://localhost:32400||
-||X-Plex-Token||*USER TOKEN*||
-||X-Plex-Client-Identifier||YOUR GUID*||
-||X-Plex-Device-Name||Plex Web (Chrome)||
-||X-Plex-Platform||Chrome||
-||X-Plex-Username||reallistic||
-||X-Plex-Provides||Player||
-||Accept||text/plain, */*; q=0.01||
-||X-Plex-Product||Plex Web||
-||User-Agent||Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36||
-||X-Plex-Device||Windows||
-||DNT||1||
-||Referer||http://localhost:32400/web/index.html||
-||Accept-Encoding||gzip,deflate,sdch||
-||Accept-Language||en-US,en;q=0.8||
 
 = Example Output =
 
