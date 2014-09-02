@@ -21,7 +21,7 @@
 
 
 == Must provide server token from plex.tv/pms/servers.xml ==
-||Get||https://plex.tv/?X-Plex-Client-Identifier=<unique id>&X-Plex-Product=Plex+Web&X-Plex-Device=OSX&X-Plex-Platform=Chrome&X-Plex-Platform-Version=37.0&X-Plex-Version=2.2.4&X-Plex-Device-Name=Plex+Web+(Chrome)&X-Plex-Token=<token>||Get Cloud Sync server info||
+|| Get || https://plex.tv/?X-Plex-Client-Identifier=unique id&X-Plex-Product=Plex+Web&X-Plex-Device=OSX&X-Plex-Platform=Chrome&X-Plex-Platform-Version=37.0&X-Plex-Version=2.2.4&X-Plex-Device-Name=Plex+Web+(Chrome)&X-Plex-Token=token ||Get Cloud Sync server info||
 
 = Example Output =
 
