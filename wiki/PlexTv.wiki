@@ -11,7 +11,7 @@
 ||Get||https://plex.tv/servers.xml||Gets a list of servers and their sections||
 ||Get||https://plex.tv/library/sections?redirect=0||Get cloud Sync Sections||
 ||Get||https://plex.tv/pms/servers.xml?includeLite=1||Get simple list of servers||
-||Get||http://plex.tv/web/translations/<language>.json||Get Translations for example en||
+||Get||http://plex.tv/web/translations/en.json||Get Translations for example: en||
 ||Get||https://plex.tv/users/account||Get account information||
 ||Get||https://plex.tv/pms/friends/all||Get PMS server shares (?)||
 ||Get||https://plex.tv/pms/friends/requests||Get PMS server share requests (?)||
