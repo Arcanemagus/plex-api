@@ -5,6 +5,14 @@
 ||Call||URL||Description||
 ||POST||https://plex.tv/users/sign_in.xml||Use basic auth to Sign in to plex.tv for validating plex username/password and receive an auth token||
 
+= Request Headers =
+||Header||Value||
+||X-Plex-Platform||name||
+||X-Plex-Platform-Version||version||
+||X-Plex-Provides||player||
+||X-Plex-Client-Identifier||someID||
+||X-Plex-Product||PlexWMC|| 
+||X-Plex-Version||0||
 
 == Must be logged in (web/cookie) or pass basic auth ==
 ||Get||https://plex.tv/devices.xml||Gets a list of available clients and servers||
