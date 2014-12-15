@@ -21,6 +21,7 @@ Base URL: http://IP:PORT/
 ||Delete||/library/sections/section_id/||Delete a section||
 ||Get||/library/onDeck||Show ondeck list||
 ||Get||photo/:/transcode?url=path-to-image&width=50&height=50||Get Photo of specified Height and width||
+||GET||/myplex/account||Get Plex.TV account information||
 
 = Request Headers =
 ||Header||Value||
@@ -60,4 +61,3 @@ Base URL: http://IP:PORT/
 ||GET||/video/:/transcode/universal/start.m3u8||?maxVideoBitrate=`<`val`>`&videoQuality=`<`val`>`&X-Plex-Platform=`<`val`>`&session=`<`val`>`&protocol=`<`val`>`&videoResolution=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Model=`<`val`>`&directPlay=`<`val`>`&fastSeek=`<`val`>`&X-Plex-Device=`<`val`>`&subtitleSize=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Username=`<`val`>`&path=`<`val`>`&directStream=`<`val`>`&X-Plex-Token=`<`val`>`&audioBoost=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Version=`<`val`>`||
 ||GET||/library/metadata/`<`val`>`||?X-Plex-Platform=`<`val`>`&X-Plex-Model=`<`val`>`&X-Plex-Token=`<`val`>`&checkFiles=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Device=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Username=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Version=`<`val`>`||
 ||GET||/video/:/transcode/universal/stop||?X-Plex-Platform=`<`val`>`&X-Plex-Model=`<`val`>`&X-Plex-Token=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Device=`<`val`>`&session=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Username=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Version=`<`val`>`||
-||GET||/myplex/account||?X-Plex-Token=`<`val`>`||
