@@ -20,7 +20,17 @@ Base URL: http://IP:PORT/
 ||Get||/servers||get the local List of servers||
 ||Delete||/library/sections/section_id/||Delete a section||
 ||Get||/library/onDeck||Show ondeck list||
+||Get||photo/:/transcode?url=path-to-image&width=50&height=50||Get Photo of specified Height and width||
 
+= Request Headers =
+||Header||Value||
+||X-Plex-Platform||(Platform name, eg iOS, MacOSX, Android, LG, etc)||
+||X-Plex-Platform-Version||(Operating system version, eg 4.3.1, 10.6.7, 3.2)||
+||X-Plex-Provides||(one or more of [player, controller, server])||
+||X-Plex-Client-Identifier||(UUID, serial number, or other number unique per device)||
+||X-Plex-Product||(Plex application name, eg Laika, Plex Media Server, Media Link)|| 
+||X-Plex-Version||(Plex application version number)||
+||X-Plex-Device||(Device name and model number, eg iPhone3,2, Motorola XOOM™, LG5200TV)||
 
 =Dump from ApiLogger=
 
