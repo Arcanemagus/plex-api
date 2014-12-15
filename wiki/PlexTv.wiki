@@ -7,13 +7,13 @@
 
 = Request Headers =
 ||Header||Value||
-||X-Plex-Platform||name||
-||X-Plex-Platform-Version||version||
-||X-Plex-Provides||player||
-||X-Plex-Client-Identifier||someID||
-||X-Plex-Product||PlexWMC|| 
-||X-Plex-Version||0||
-
+||X-Plex-Platform||(Platform name, eg iOS, MacOSX, Android, LG, etc)||
+||X-Plex-Platform-Version||(Operating system version, eg 4.3.1, 10.6.7, 3.2)||
+||X-Plex-Provides||(one or more of [player, controller, server])||
+||X-Plex-Client-Identifier||(UUID, serial number, or other number unique per device)||
+||X-Plex-Product||(Plex application name, eg Laika, Plex Media Server, Media Link)|| 
+||X-Plex-Version||(Plex application version number)||
+||X-Plex-Device||(Device name and model number, eg iPhone3,2, Motorola XOOM™, LG5200TV)||
 == Must be logged in (web/cookie) or pass basic auth ==
 ||Get||https://plex.tv/devices.xml||Gets a list of available clients and servers||
 ||Get||https://plex.tv/servers.xml||Gets a list of servers and their sections||
