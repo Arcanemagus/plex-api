@@ -14,6 +14,8 @@
 ||X-Plex-Product||(Plex application name, eg Laika, Plex Media Server, Media Link)|| 
 ||X-Plex-Version||(Plex application version number)||
 ||X-Plex-Device||(Device name and model number, eg iPhone3,2, Motorola XOOM™, LG5200TV)||
+
+
 == Must be logged in (web/cookie) or pass basic auth ==
 ||Get||https://plex.tv/devices.xml||Gets a list of available clients and servers||
 ||Get||https://plex.tv/servers.xml||Gets a list of servers and their sections||
