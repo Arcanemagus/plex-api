@@ -64,6 +64,14 @@ You can then use the provided keys to return media items for that character.
 {{{
 GET /library/sections/X/firstCharacter/Y
 }}}
+
+= Miscellaneous Endpoints =
+When connecting to a remote server, you might need to know what token to send it; if you don’t know the machine identifier of the remote server, that’s hard, so there is an endpoint you can hit which returns basic information about the server, and isn’t protected.
+{{{
+GET /identity
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaContainer size="0" machineIdentifier="567-456-457" version="0.9.7.3-36679df" />
+}}}
 =Dump from ApiLogger=
 
 ||GET||/||?X-Plex-Platform=`<`val`>`&X-Plex-Token=`<`val`>`&X-Plex-Model=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Device=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Username=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Version=`<`val`>`||
