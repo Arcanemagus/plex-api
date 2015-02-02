@@ -1,0 +1,20 @@
+#summary Media Container concepts
+
+= Introduction =
+
+One of the most important concepts of the API is that it allows “browsability”. This means that you can start at the “root” endpoint of a Plex Media Server, and walk the full tree of media by following some simple rules.
+
+
+= Details =
+
+Most responses from the Media Server come in the form of a Media Container element. Let’s look at (a slightly simplified version of) the root XML:
+
+{{{
+<MediaContainer size="7" friendlyName="Retina Media Server" machineIdentifier="d4ed404613461edf6412ec38391c962bef783a4f" mediaAnalysisVersion="1" myPlex="1" platform="MacOSX" platformVersion="10.8.2" requestParametersInCookie="1" transcoderActiveVideoSessions="0" transcoderAudio="1" transcoderVideoBitrates="64,96,208,320,720,1500,2000,3000,4000,8000,10000,12000,20000" transcoderVideoQualities="0,1,2,3,4,5,6,7,8,9,10,11,12" transcoderVideoResolutions="128,128,160,240,320,480,768,720,720,1080,1080,1080,1080" updatedAt="1349080834" version="0.9.7.0-27d5f5f" webkit="1">
+  <Directory count="1" key="channels" title="channels" />
+  <Directory count="1" key="library" title="library" />
+  <Directory count="2" key="music" title="music" />
+  <Directory count="2" key="photos" title="photos" />
+  <Directory count="1" key="video" title="video" />
+</MediaContainer>
+}}}
