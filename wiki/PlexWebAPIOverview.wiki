@@ -9,6 +9,9 @@ All API information comes wrapped in the root node of
 The MediaContainer node can have many attributes and child nodes depending on the API's URL you are accessing. 
 
 All timestamps in the API are in Epoch time. See http://www.epochconverter.com/
+
+The API is roughly RESTful in nature, and the server can return XML or JSON responses (see headers).
+
 = API URL's =
 Base URL: http://IP:PORT/
 
@@ -34,6 +37,7 @@ Base URL: http://IP:PORT/
 ||X-Plex-Device||(Device name and model number, eg iPhone3,2, Motorola XOOM™, LG5200TV)||
 ||X-Plex-Container-Size||(Paging Size, eg Plex-Container-Size=1)||
 ||X-Plex-Container-Start||(Paging Start, eg X-Plex-Container-Start=0)||
+||Accept||(application/json)|| (mixed results)
 =Dump from ApiLogger=
 
 ||GET||/||?X-Plex-Platform=`<`val`>`&X-Plex-Token=`<`val`>`&X-Plex-Model=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Device=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Username=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Version=`<`val`>`||
