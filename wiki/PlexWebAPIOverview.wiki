@@ -65,6 +65,15 @@ You can then use the provided keys to return media items for that character.
 GET /library/sections/X/firstCharacter/Y
 }}}
 
+= The Transcoders =
+It’s possible to obtain a list of the current transcode sessions:
+{{{
+GET /transcode/sessions
+}}}
+Given a session key, you can kill a transcode session with the following endpoint:
+{{{
+DELETE /transcode/sessions/<key>
+}}}
 = Miscellaneous Endpoints =
 When connecting to a remote server, you might need to know what token to send it; if you don’t know the machine identifier of the remote server, that’s hard, so there is an endpoint you can hit which returns basic information about the server, and isn’t protected.
 {{{
