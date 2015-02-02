@@ -38,6 +38,23 @@ Base URL: http://IP:PORT/
 ||X-Plex-Container-Size||(Paging Size, eg Plex-Container-Size=1)||
 ||X-Plex-Container-Start||(Paging Start, eg X-Plex-Container-Start=0)||
 ||Accept||(application/json - sometimes not valid JSON)||
+
+= Advanced Filtering =
+You can get a filtered view of any section by using the following endpoint:
+{{{
+GET /library/sections/X/all?<filters>
+}}}
+The filters are expressed via querystring parameters. Each parameter contains a field, operator and value(s). Valid operators are =, >=, <=, and !=. For tag-based fields (e.g. genre), only = and != operators are allowed, and correspond to “are tagged with” and “are not tagged with”.
+
+year=2010 ⇢ returns all media from the year 2010
+year>=1990 ⇢ returns all media from years 1990 and later.
+year!=2012 ⇢ returns all media from years other than 2012.
+year=2012,2013,2015 ⇢ returns all media from years 2012, 2013, and 2015.
+
+When multiple parameters are passed, they are logically ANDed together.
+
+year=2010&rating>=5 ⇢ all media from the year 2012 with a 5 or greater.
+
 =Dump from ApiLogger=
 
 ||GET||/||?X-Plex-Platform=`<`val`>`&X-Plex-Token=`<`val`>`&X-Plex-Model=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Device=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Username=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Version=`<`val`>`||
