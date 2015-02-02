@@ -18,3 +18,6 @@ Most responses from the Media Server come in the form of a Media Container eleme
   <Directory count="1" key="video" title="video" />
 </MediaContainer>
 }}}
+
+Media Containers have top-level information such as number of elements (size), and other pertinent general information. In this case (the root level), it contains information about the server, its capabilities (e.g. has an audio transcoder, supports WebKit), platform, and version.
+The Directory elements indicate that they can be browsed into, via the key attribute. That attribute is very similar to the src attribute in an HTML hyperlink element; it can be relative (e.g. “music”), absolute (e.g. “/library/sections/1”) or full (e.g. “http://.......”. If you follow these rules for key construction, you can browse your way through the entire media tree with very few exceptions.
