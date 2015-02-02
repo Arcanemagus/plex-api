@@ -32,7 +32,8 @@ Base URL: http://IP:PORT/
 ||X-Plex-Product||(Plex application name, eg Laika, Plex Media Server, Media Link)|| 
 ||X-Plex-Version||(Plex application version number)||
 ||X-Plex-Device||(Device name and model number, eg iPhone3,2, Motorola XOOM™, LG5200TV)||
-
+||X-Plex-Container-Size||(Paging Size, eg Plex-Container-Size=1)||
+||X-Plex-Container-Start||(Paging Start, eg X-Plex-Container-Start=0)||
 =Dump from ApiLogger=
 
 ||GET||/||?X-Plex-Platform=`<`val`>`&X-Plex-Token=`<`val`>`&X-Plex-Model=`<`val`>`&X-Plex-Platform-Version=`<`val`>`&X-Plex-Client-Platform=`<`val`>`&X-Plex-Client-Identifier=`<`val`>`&X-Plex-Device=`<`val`>`&X-Plex-Product=`<`val`>`&X-Plex-Username=`<`val`>`&X-Plex-Device-Name=`<`val`>`&X-Plex-Version=`<`val`>`||
