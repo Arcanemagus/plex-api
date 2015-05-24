@@ -18,7 +18,7 @@ Base URL: http://IP:PORT/
 ||Call||URL||Description||
 ||Get||/||Transcode bitrateinfo, myPlexauthentication info||
 ||Get||/status/sessions||This will retrieve the "Now Playing" Information of the PMS.||
-||Get||/search||?query=string This will retrieve the "Now Playing" Information of the PMS.||
+||Get||/search||?query=string This will search the database for the string provided.||
 ||Get||/library/sections||Contains all of the sections on the PMS. This acts as a directory and you are able to "walk" through it.||
 ||Get||/:/prefs||Gets the server preferences||
 ||Get||/servers||get the local List of servers||
