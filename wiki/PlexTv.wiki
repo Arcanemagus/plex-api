@@ -9,11 +9,12 @@
 ||Header||Value||
 ||X-Plex-Platform||(Platform name, eg iOS, MacOSX, Android, LG, etc)||
 ||X-Plex-Platform-Version||(Operating system version, eg 4.3.1, 10.6.7, 3.2)||
-||X-Plex-Provides||(one or more of [player, controller, server])||
+||X-Plex-Provides||(One or more of [player, controller, server])||
 ||X-Plex-Client-Identifier||(UUID, serial number, or other number unique per device)||
 ||X-Plex-Product||(Plex application name, eg Laika, Plex Media Server, Media Link)|| 
 ||X-Plex-Version||(Plex application version number)||
 ||X-Plex-Device||(Device name and model number, eg iPhone3,2, Motorola XOOM™, LG5200TV)||
+||X-Plex-Device-Name||(Primary name for the device eg. "Plex Web (Chrome)")||
 
 
 == Must be logged in (web/cookie) or pass basic auth ==
